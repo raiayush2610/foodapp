@@ -1,0 +1,18 @@
+.cart-items{
+    text-align: center;
+}
+.cart{
+    position: relative;
+    /* background-color: rgb(139, 209, 223); */
+}
+.content, .button{
+    
+    text-align: center;
+}
+.item{
+    display: inline-block;
+    margin: 20px;
+}
+.button{
+    display: inline-block;
+}
