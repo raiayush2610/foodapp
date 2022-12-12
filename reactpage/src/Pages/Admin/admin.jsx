@@ -44,7 +44,7 @@ function Admin (){
 // Add Food Item
    const addItem = async() => {
     //  e.preventDefault();
-     console.log('dfsdfds')
+    //  console.log('dfsdfds')
      try {
        const res = await axios.post(`http://localhost:4000/api/item`,{item: itemText, price: itemPrice})
         console.log(res);
@@ -135,7 +135,7 @@ function Admin (){
         </li> */}
 
         <li className="nav-item">
-          <a className="a-nav nav-link active" href="mailto:mayank31rbt@gmail.com">Contact Us</a>
+          <a className="a-nav nav-link active" href="mailto:ayushayushravi@gmail.com">Contact Us</a>
         </li>        
       </ul>
       </div>

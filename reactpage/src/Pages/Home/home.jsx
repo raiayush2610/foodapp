@@ -28,7 +28,7 @@ const Home = () =>{
           
         </li>
         <li class="nav-item">
-          <a class="a-nav nav-link active" href="mailto:mayank31rbt@gmail.com">Contact Us</a>
+          <a class="a-nav nav-link active" href="mailto:ayushayushravi@gmail.com">Contact Us</a>
         </li>        
       </ul>
       </div>
@@ -40,40 +40,41 @@ const Home = () =>{
       <p className="middle-p">Ordering food is now as easy as eating it</p>
 
     </div>
+     
+          <div className="bottom-container " >
+            <div class="row">
+            <div class="col-lg-4">
+              <div class="card">
+                <div class="card-body">
+                  <img src = {burger} class="burger-img card-title" alt="burger"/>
+                  <p class="card-text">Cheese Burger <br/> Just at Rs. 60</p>
+                  <NavLink to = "/order" className="btn btn-primary">Order Now</NavLink>
+                </div>
+              </div>
+            </div>
 
-    <div className="bottom-container">
-      <div class="row">
-      <div class="col-lg-4">
-        <div class="card">
-          <div class="card-body">
-            <img src = {burger} class="burger-img card-title" alt="burger"/>
-            <p class="card-text">Cheese Burger <br/> Just at Rs. 60</p>
-            <NavLink to = "/order" className="btn btn-primary">Order Now</NavLink>
+          <div class="col-lg-4">
+          <div class="card">
+            <div class="card-body">
+              <img src = {biryani} class="biryani-img card-title" alt="biryani"/>
+              <p class="card-text">Chicken Biryani <br/> Just at Rs. 70</p>
+              <NavLink to = "/order" className="btn btn-primary">Order Now</NavLink>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card">
+            <div class="card-body">
+              <img src = {pizza} class="pizza-img card-title" alt="Pizza" />
+              <p class="card-text">Cheese burst pizza <br/> Just at Rs. 120</p>
+              <NavLink to = "/order" className="btn btn-primary">Order Now</NavLink>
+            </div>
           </div>
         </div>
       </div>
-
-      <div class="col-lg-4">
-    <div class="card">
-      <div class="card-body">
-        <img src = {biryani} class="biryani-img card-title" alt="biryani"/>
-        <p class="card-text">Chicken Biryani <br/> Just at Rs. 70</p>
-        <NavLink to = "/order" className="btn btn-primary">Order Now</NavLink>
-      </div>
-    </div>
-  </div>
-  <div class="col-lg-4">
-    <div class="card">
-      <div class="card-body">
-        <img src = {pizza} class="pizza-img card-title" alt="Pizza" />
-        <p class="card-text">Cheese burst pizza <br/> Just at Rs. 120</p>
-        <NavLink to = "/order" className="btn btn-primary">Order Now</NavLink>
-      </div>
-    </div>
-  </div>
 </div>
     <h3 className="bottom-p">This could be your next meal😋😋</h3>
-    </div>
+   
         
     </>
     );

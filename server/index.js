@@ -28,11 +28,11 @@ const cartRoute = require('./routes/cart');
 
 app.use(cors({origin: '*'}))
 // Connect to mongoDB
- mongoose.connect('mongodb+srv://mayank11:admin1234@food.hfidj.mongodb.net/?retryWrites=true&w=majority')
+ mongoose.connect('mongodb://localhost:27017/cart')
  .then(()=> console.log("Item Database connected"))
  .catch(err => console.log(err));
 
- mongoose.createConnection('mongodb+srv://mayank:admin1234@cart.gv2wn.mongodb.net/?retryWrites=true&w=majority');
+ mongoose.createConnection('mongodb://localhost:27017/food');
  console.log('Cart Database connected');
 
 

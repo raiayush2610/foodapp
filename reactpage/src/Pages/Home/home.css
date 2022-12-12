@@ -2,6 +2,11 @@
     height: 750px;
     width: 100%;
   }
+  .center{
+    float: center;
+    margin-left: 500px;
+  }
+
   
   .middle-container{
     position: relative;
@@ -21,8 +26,11 @@
     color: #fff;
   }
   .bottom-container{
+    float: center;
+    clear: both;
+    width: 100%;
     position: relative;
-    margin: 7% 10%;
+    margin: 7% 50% 7% 7%;
   }
   .card{
     margin: 20px;
@@ -40,5 +48,6 @@
   }
   
   .icon{
+    display: inline;
     margin: 10px;
   }

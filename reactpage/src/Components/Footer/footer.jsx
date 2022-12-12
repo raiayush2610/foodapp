@@ -7,11 +7,13 @@ import {faInstagram} from "@fortawesome/free-brands-svg-icons";
 const Footer = () =>{
     return (
     <div className="footer">
-    <FontAwesomeIcon className="copy-icon" icon={faCopyright}/><p className="copyright">Copyright Ayush Rai</p>
+    
       
-    <FontAwesomeIcon className="icon" icon={faFacebook}></FontAwesomeIcon>
-    <FontAwesomeIcon className="icon" icon={faInstagram}></FontAwesomeIcon>
-    <FontAwesomeIcon className="icon" icon={faTwitter}></FontAwesomeIcon>
+   <a href="https://www.facebook.com/"><FontAwesomeIcon className="icon" icon={faFacebook}></FontAwesomeIcon></a> 
+   <a href="https://www.instagram.com/?hl=en"><FontAwesomeIcon className="icon" icon={faInstagram}></FontAwesomeIcon></a>
+   <a href="https://twitter.com/"><FontAwesomeIcon className="icon" icon={faTwitter}></FontAwesomeIcon></a>
+   <FontAwesomeIcon className="copy-icon" icon={faCopyright}/><p className="copyright">Copyright Ayush Rai</p>
+    
 
     </div>
     )
